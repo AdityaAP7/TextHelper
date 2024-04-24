@@ -1,5 +1,5 @@
 import React from 'react'
-
+//Code for alerts
 function Alert(props) {
     const capitalize = (word)=>{
         const lower = word.toLowerCase();
