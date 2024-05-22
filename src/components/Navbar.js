@@ -4,20 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar(props) {
     return (
-
-
-                                                                            input className="form-check-input" onClick={props.toggleMode} type="checkbox" id="flexSwitchCheckDefault"/>
-                        <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Enable DarkMode</label>
-
-
-
-
-
-
-
-
-
-        
+  
         <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/">{props.title}</Link>
